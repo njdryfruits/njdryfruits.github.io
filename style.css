@@ -26,6 +26,13 @@ html{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+#pre{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: #27282c url(images/IMG_20220301_201404_894-removebg-preview.png) no-repeat center;
+    z-index: 1200;
+}
 
 /* all similar content styling codes */
 section{

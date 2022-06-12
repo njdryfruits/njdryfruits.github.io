@@ -30,7 +30,8 @@
 
 </head>
 
-<body>
+<body onload="myfunction()">
+    <div id="pre"></div>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
@@ -235,6 +236,13 @@
             </div>
         </div>
     </section>
+    <script>
+        var load = document.getElementById("pre");
+        function myfunction() {
+            load.style.display = 'none';
+            
+        }
+    </script>
 
 
     <script src="script.js"></script>
