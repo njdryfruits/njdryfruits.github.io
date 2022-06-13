@@ -503,6 +503,7 @@ section .title::after{
 }
 .contact .contact-content .info .sub-title{
     color: blueviolet;
+    font-size: 20px;
 }
 .butt{
     display: flex;
@@ -709,7 +710,7 @@ section .title::after{
         font-size: 19px;
     }
     .butt a{
-        padding: 20px 80px;
+        padding: 10px 50px;
     }
     .contact .right form .fields{
         flex-direction: column;
