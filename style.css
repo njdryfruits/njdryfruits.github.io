@@ -255,6 +255,7 @@ section .title::after{
 }
 
 /* about section styling */
+
 .about .title::after{
     content: "what we sell";
 }
@@ -300,7 +301,7 @@ section .title::after{
 }
 .gallery{
     color: #111;
-    background: #111;
+    background: url(images/Sprinkle.svg);
 }
 .gallery h2{
     color: #fff;
@@ -331,8 +332,37 @@ section .title::after{
     border-radius: 20px;
 }
 .cardd img{
-    height: 220px;
-    width: 220px;
+     width: 220px;
+     height: 220px;
+    border-radius: 10px;
+}
+.cardd .lay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.575);
+}
+.cardd .lay:hover{
+    opacity: 1;
+}
+.cardd .lay a{
+    font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 10px 10px;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-color: blueviolet;
+  text-decoration: none;
 }
 .cardd .imgsub{
     align-items: center;
@@ -357,7 +387,6 @@ section .title::after{
 }
 .special{
     color: #111;
-    background-color: #fff;
 }
 .special .title{
     color: rgb(0, 0, 0);
@@ -421,7 +450,7 @@ section .title::after{
 /*sjdlakjdl*/
 .contact{
     color: white;
-    background-color: #111;
+    background: url(images/Sprinkle.svg);
 }
 .contact .title{
     color: rgb(255, 255, 255);
