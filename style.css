@@ -1,6 +1,10 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Blaka&family=Dancing+Script&family=Satisfy&display=swap');
+@font-face {
+    font-family: salad;
+    src: url(CaesarSalad-8M6nD.otf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -183,7 +187,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url(images/dsfsds.jpeg) no-repeat center center / cover fixed;
+    background: url(images/bg.jpeg) no-repeat center center / cover fixed;
     height: 100%;
     position: relative;
     height: 100vh;
@@ -196,15 +200,26 @@ section .title::after{
 .home .max-width{
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home .max-width .row{
   margin-right: 0;
 }
+
 .home .hh h1{
-    color: black;
-    font-size: 5rem;
-    margin-left: 275px;
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    text-align: center;
+    font-family: salad;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 100;
+    margin-top: 200px;
 }
+
+
 .home .home-content .text-1{
     font-size: 27px;
     
@@ -648,6 +663,10 @@ section .title::after{
     }
     .scroll-up-btn.show{
         right: 50px;
+    }
+    .home .hh h1{
+        font-size: 2rem;
+        font-weight: 70;
     }
 
     .home .home-content .text-2{
